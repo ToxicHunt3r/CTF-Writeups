@@ -1,2 +1,5 @@
-# CTF-wirteups
-c4ptur3 th3 fl4g writeups for various sites
+### TryHackMe Writeups
+<details>
+    <summary>Challgnes (CTF)</summary>
+    - OhSINT
+</details>
