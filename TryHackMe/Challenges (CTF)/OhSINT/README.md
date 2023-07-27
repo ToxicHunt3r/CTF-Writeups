@@ -12,6 +12,7 @@ to retive photo's metadata run this command:
 ```bash
 exiftool WndowsXP.jpg
 ```
+![screenshot_exiftool](/Challenges_(CTF)/OhSINT/assets/Exiftool.png?raw=true)
 
 Under the Copyrights it says the creator name of this image is `OWoodflint`, Let's Google this name.
 
