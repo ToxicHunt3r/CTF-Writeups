@@ -1,7 +1,9 @@
 # [OhSINT - Easy][1]
 What information can you possibly get with just one photo?
 
-First we need to download the task files, we will find that it's a photo of WindowsXP. so we need obvserve the metadata in the photo using `exiftool`, to install it on Debain based distros run the following command:
+![WindowsXP](/TryHackMe/Challenges/OhSINT/assets/WindowsXP.jpg)
+
+First we need to download the task files, we will find that it's a photo of [WindowsXP](/TryHackMe/Challenges/OhSINT/assets/WindowsXP.jpg). so we need obvserve the metadata in the photo using `exiftool`, to install it on Debain based distros run the following command:
 
 ```bash
 sudo apt install exiftool
