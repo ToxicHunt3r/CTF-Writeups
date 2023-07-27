@@ -3,11 +3,15 @@ What information can you possibly get with just one photo?
 
 After downloading the task files, we will find that it's a photo of WindowsXP.so we need obvserve the metadata in the photo using `exiftool`, to install it on Debain based distros run the following command:
 
-``sudo apt install exiftool``
+```bash
+sudo apt install exiftool
+```
 
 to retive photo's metadata run this command:
 
-`exiftool WndowsXP.jpg`
+```bash
+exiftool WndowsXP.jpg
+```
 
 Under the Copyrights it says the creator name of this image is `OWoodflint`, Let's Google this name.
 
