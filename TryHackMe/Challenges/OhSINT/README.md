@@ -12,11 +12,14 @@ to retive photo's metadata run this command:
 ```bash
 exiftool WndowsXP.jpg
 ```
+
 ![exiftool](/TryHackMe/Challenges/OhSINT/assets/Exiftool.png)
 
 Under the Copyrights it says the creator name of this image is `OWoodflint`, Let's Google this name.
 
 ![Google](/TryHackMe/Challenges/OhSINT/assets/GoogleSearch.png)
+
+<hr>
 
 ### Q1: What is this user's avatar of?
 In Google search results we got a link of Twitter profile with the same name and a photo of `cat`.
@@ -25,12 +28,16 @@ In Google search results we got a link of Twitter profile with the same name and
 
 **Answar:** Cat
 
+<hr>
+
 ### Q2: What city is this person in?
 In the same Google results we will find GitHub repositry of `OWoodfl1nt`, and in readme that his location is `London`.
 
-![GitHub](/TryHackMe/Challenges/OhSINT/assets/GitHubRepo.png) <br>
+![GitHub](/TryHackMe/Challenges/OhSINT/assets/GithubRepo.png) <br>
 
 **Answar:** London
+
+<hr>
 
 ### Q3: What is the SSID of the WAP he connected to?
 back to his Twitter account we will find a tweet with his BSSID `B4:5D:50:AA:86:41`.
@@ -47,21 +54,29 @@ We got a point on the map with SSID `UnileverWiFi`.
 
 **Answar:** UnileverWiFi
 
+<hr>
+
 ### Q4: What is his personal email address?
 back to GitHub we will find his email address is `OWoodflint@gmail.com`.
 
-![GitHub](/TryHackMe/Challenges/OhSINT/assets/GitHubRepo.png) <br>
+![GitHub](/TryHackMe/Challenges/OhSINT/assets/GithubRepo.png) <br>
 
 **Answar:** OWoodflint@gmail.com
 
+<hr>
+
 ### Q5: What site did you find his email address on?
 **Answar:** GitHub
+
+<hr>
 
 ### Q6: Where has he gone on holiday?
 In google search results there's a wordpress site and we will find he is sharing his location `New York`
 ![Wordpress](/TryHackMe/Challenges/OhSINT/assets/Wordpress.png) <br>
 
 **Answar:** New York
+
+<hr>
 
 ### Q7: What is the person's password?
 if we inspected the source code of that site we will find the password `pennYDr0pper.!` hidden .
