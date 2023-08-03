@@ -57,14 +57,11 @@ Same steps as [Hash 1 - MD5](#hash-1---md5)<br>
 
 ### Hash 4 - bcrypt $2*$, Blowfish (Unix)
 Hash: $2y$12$Dwt1BZj6pcyc3Dy1FWZ5ieeUznr71EeNkJkUlypTsgbX1H68wsRom
-
+Same steps as [Hash 1 - MD5](#hash-1---md5)<br>
 [Hash Identifier:][2]<br>
 `$2y$12$Dwt1BZj6pcyc3Dy1FWZ5ieeUznr71EeNkJkUlypTsgbX1H68wsRom - Possible algorithms: bcrypt $2*$, Blowfish (Unix)`
 
-Hashcat:<br>
-```bash
-hashcat hash.txt -m 3200 rockyou.txt
-```
+[Hashes Decrypt:][4]<br>
 `$2y$12$Dwt1BZj6pcyc3Dy1FWZ5ieeUznr71EeNkJkUlypTsgbX1H68wsRom:bleh`
 
 ### Hash 5 - MD4
