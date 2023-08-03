@@ -1,6 +1,6 @@
 ### TryHackMe Writeups
 <details>
     <summary>Challgnes (CTF)</summary>
-    - OhSINT
+    - OhSINT<br>
     - Crack the hash
 </details>
