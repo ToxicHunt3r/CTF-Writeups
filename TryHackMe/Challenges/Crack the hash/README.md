@@ -16,7 +16,7 @@ Table of Contents
   * [Hash 4 - SHA1](#hash-4---sha1)
 
 ## Tools
-in this room i have used [hashes.com hash identifier][2] and [hashcat examples][3] to identify the hashing algorithm with hashcat and [hashes.com Decrypt Tool][4] to crack the hashes
+in this room i have used [hashes.com hash identifier][2] and [hashcat examples][3] to identify the hashing algorithm with hashcat and [hashes.com Decrypt Tool][4] to crack the hashes<br>
 to install hashcat  on Debain based distros run the following command:
 
 ```bash
